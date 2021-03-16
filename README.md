@@ -19,7 +19,7 @@ Project to navigate Nodejs and Typescript
 
 ### Tasks - Class 02:
  - Group 01: Get top free games from google store
-    - Libreria: unirest
+    - Library: unirest
     - URL: https://gplaystore.p.rapidapi.com/topFreeGames
     - Headers required:
     ```json
@@ -32,5 +32,5 @@ Project to navigate Nodejs and Typescript
 
  - Group 02: List all repositories by user
     - Example: https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user
-    - Libreria: octokit
+    - Library: octokit
     - URL: https://api.github.com/users/USERNAME/repos
