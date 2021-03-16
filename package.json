@@ -2,10 +2,18 @@
   "name": "nodejs-training",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
+    "start:js": "node src/main.js",
+    "start:ts": "tsc",
+    "dev:ts": "npm run start:ts && node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "typescript": "^4.2.3"
+  }
 }
