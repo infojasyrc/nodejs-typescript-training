@@ -3,6 +3,8 @@ Nodejs Training
 
 Project to navigate Nodejs and Typescript
 
+Required Nodejs version: 14
+
 ## Class 01: Understanding the basic
 
 - Nodejs is not a language
@@ -17,8 +19,23 @@ Project to navigate Nodejs and Typescript
 - Import/Export, Functions and Classes
 - Async / Await
 
-### Tasks - Class 02:
- - Group 01: Get top free games from google store
+### Exercises - Class 02:
+  - Group 01: Search in iTunes Store
+    - [Docs](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html#//apple_ref/doc/uid/TP40017632-CH3-SW1):
+    - Library: [node-fetch](https://www.npmjs.com/package/node-fetch) and [Types for node-fetch](https://www.npmjs.com/package/@types/node-fetch)
+    - URL: https://itunes.apple.com/search?term=ARTIST&limit=5
+    - Limit: 5 results
+ 
+
+ - Group 02: List all repositories by user 
+    - [Example](https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user): https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user
+    - Library: @octokit/core
+    - NPM: https://www.npmjs.com/package/@octokit/core
+    - URL: https://api.github.com/users/USERNAME/repos
+    - Limit: 2 results
+
+
+  - Group 03: Get top free games from google store
     - Library: unirest
     - URL: https://gplaystore.p.rapidapi.com/topFreeGames
     - Headers required:
@@ -29,8 +46,19 @@ Project to navigate Nodejs and Typescript
             "useQueryString": true
         }
     ```
+    - Note: No Implemented because it requires a subscription for Rapid API
+
+
+## Class 03: Test Driven Development
+
+- Install and configure Jest
+- Run the first test
+
+### Tasks - Class 03:
+ - Group 01: Get top free games from google store
+
 
  - Group 02: List all repositories by user
-    - Example: https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user
-    - Library: octokit
-    - URL: https://api.github.com/users/USERNAME/repos
+ 
+
+## Class 04: GraphQL
