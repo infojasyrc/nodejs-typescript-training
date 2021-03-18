@@ -41,8 +41,8 @@ Required Nodejs version: 14
     - Headers required:
     ```json
         {
-            "x-rapidapi-key": "fa6ef5d0e0mshe6e9ee80eb4cca6p186581jsnea2acdc9ddc4",
-            "x-rapidapi-host": "gplaystore.p.rapidapi.com",
+            "x-rapidapi-key": "RAPID API KEY",
+            "x-rapidapi-host": "RAPID API HOST",
             "useQueryString": true
         }
     ```
